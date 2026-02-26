@@ -86,5 +86,34 @@ let person = {
 console.log(person);
 console.log(person.job);
 
+//16
+function calculate() {
+    return (15 + 3) * 2 - 8 / 4;
+}
+console.log(calculate());
+
+//17
+function isEven(x) {
+    return x % 2 == 0 ? true: false; 
+}
+console.log(isEven(5));
+console.log(isEven(4));
+
+//18
+function prog(a, b) {
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+}
+prog(10, 4);
+
+//19
+console.log(5 + 10 * 2); // will be 25
+
+//20 
+let v = 2;
+console.log(v++);
+console.log(++v);
+console.log( v = v + 1);
 
 
