@@ -173,3 +173,12 @@ console.log(10 != "10"); // false they are equal
 console.log(10 !== "10"); // true they are not equal in type
 
 //29
+let age = 20;
+console.log(age > 18 && age < 60);
+
+//30
+let s1 = "JavaScript";  
+let s2 = "is fun";  
+
+console.log(`${s1} ${s2}`);
+console.log(s1 + " " + s2);
