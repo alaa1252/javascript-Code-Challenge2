@@ -52,6 +52,39 @@ const city = "Paris";
 //city = "London"; cant reassign a const
 
 //11
+var num = 10;
+console.log(typeof num);
+
+var st = "hi";
+console.log(typeof st);
+
+var bool = true;
+console.log(typeof bool);
+
+var un = undefined;
+console.log(typeof un);
+
+var obj = null;
+console.log(typeof obj);
+
+//12
+// above
+
+//13
+console.log(typeof null); // type is object
+
+//14
+var arr = ["red", "white", "black"]
+console.log(arr[1])
+
+//15
+let person = {
+    name : "alaa",
+    age : 22,
+    job : "intern"
+}
+console.log(person);
+console.log(person.job);
 
 
 
