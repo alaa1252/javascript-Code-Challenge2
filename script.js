@@ -367,3 +367,31 @@ if (settings.theme === "light") {
 }
 console.log(settings);
 
+// 36
+let nums = [5, 2, 9, 1];
+nums.push(10);
+nums.shift();
+console.log(nums);
+console.log(nums.length);
+
+// 37
+let letters = ["b", "a", "c"];
+letters.sort();
+console.log(letters);
+
+// 38
+let scores = [40, 100, 1, 5, 25, 10];
+scores.sort(function(a, b) {
+    return a - b;
+});
+console.log(scores);
+
+// 39
+let colors = ["red", "green"];
+colors.splice(1, 0, "blue");
+console.log(colors);
+
+// 40
+let cities = ["Cairo","Dubai","Amman","Doha","Riyadh"];
+cities.splice(1, 2);
+console.log(cities);
