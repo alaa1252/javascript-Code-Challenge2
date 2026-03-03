@@ -253,3 +253,41 @@ switch(command) {
         console.log("unknown");
 }
 
+// 21
+function add(a, b) {
+    return a + b;
+}
+console.log(add(5, 7));
+
+// 22
+const greet = function(name) {
+    return `Hello, ${name}`;
+};
+console.log(greet("Alice"));
+
+// 23
+setTimeout(function() {
+    console.log("done");
+}, 500);
+
+// 24
+console.log(declared());
+// console.log(expressed());
+function declared() {
+    return "A";
+}
+const expressed = function() {
+    return "B";
+};
+
+// 25
+function isEven(n) {
+    return n % 2 === 0;
+}
+
+let number = 8;
+if (isEven(number)) {
+    console.log("even");
+} else {
+    console.log("odd");
+}
