@@ -163,3 +163,93 @@ for (let i = 1; i <= 50; i++) {
 }
 console.log(countDiv);
 
+// 17
+const day = "Tue";
+
+switch(day) {
+    case "Mon":
+    case "Tue":
+    case "Wed":
+    case "Thu":
+    case "Fri":
+        console.log("weekday");
+        break;
+    case "Sat":
+    case "Sun":
+        console.log("weekend");
+        break;
+    default:
+        console.log("invalid day");
+}
+
+// 18
+const month = 4; 
+let season;
+
+switch(month) {
+    case 12:
+    case 1:
+    case 2:
+        season = "Winter";
+        break;
+    case 3:
+    case 4:
+    case 5:
+        season = "Spring";
+        break;
+    case 6:
+    case 7:
+    case 8:
+        season = "Summer";
+        break;
+    case 9:
+    case 10:
+    case 11:
+        season = "Autumn";
+        break;
+    default:
+        season = "Invalid month";
+}
+console.log(season);
+
+// 19
+const color = "green";
+
+switch(color) {
+    case "red":
+        console.log("stop");
+        break;
+    case "yellow":
+        console.log("slow");
+        break;
+    default:
+        console.log("go");
+}
+
+// 20
+const command = "pause";
+
+function start() { 
+    console.log("start function called"); 
+}
+function stop() { 
+    console.log("stop function called"); 
+}
+function pause() { 
+    console.log("pause function called");
+ }
+
+switch(command) {
+    case "start":
+        start();
+        break;
+    case "stop":
+        stop();
+        break;
+    case "pause":
+        pause();
+        break;
+    default:
+        console.log("unknown");
+}
+
