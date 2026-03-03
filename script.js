@@ -1,5 +1,3 @@
-const { use } = require("react");
-
 // 1
 const form = document.getElementById("myForm");
 
@@ -93,17 +91,75 @@ else {
 }
 
 //7
-let n = 7; 
+// let n = 7; 
 
-if (n % 2 === 0) {
-    console.log("even");
-} 
-else {
-    console.log("odd");
-}
+// if (n % 2 === 0) {
+//     console.log("even");
+// } 
+// else {
+//     console.log("odd");
+// }
 //8
 const user = {role: "editor", active: true};
 
 if((user.role === "admin" || user.role === "editor") && user.active === true) {
     console.log("can-edit");
 }
+
+// 9
+let sum = 0;
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+console.log(sum);
+
+// 10
+let i = 5;
+while (i >= 1) {
+    console.log(i);
+    i--;
+}
+
+// 11
+let count = 0;
+do {
+    console.log(count);
+    count++;
+} while (count < 3);
+
+// 12
+for (let i = 1; i <= 10; i++) {
+    console.log(3 * i);
+}
+
+// 13
+let j = 0;
+while (j < 3) {
+    console.log(j);
+    j++;
+}
+
+// 14
+let n = 5;
+let factorial = 1;
+for (let k = 1; k <= n; k++) {
+    factorial *= k;
+}
+console.log(factorial);
+
+// 15
+let str = "";
+for (let i = 0; i < 5; i++) {
+    str += "#";
+}
+console.log(str);
+
+// 16
+let countDiv = 0;
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 === 0 && i % 5 === 0) {
+        countDiv++;
+    }
+}
+console.log(countDiv);
+
