@@ -18,3 +18,8 @@ form.addEventListener("submit", (event) => {
 
     console.log(status);
 })
+
+// 2
+let x = 0;
+if (x) { console.log("truthy"); } else { console.log("falsy");
+} // 0 means false in js
