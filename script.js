@@ -332,3 +332,38 @@ function repeatText(text, times = 1) {
 }
 console.log(repeatText("Hi ", 3));
 console.log(repeatText("Hello"));
+
+// 31
+const book = {
+    title: "JavaScript Guide",
+    author: "MDN",
+    year: 2023
+};
+console.log(book.title);
+
+// 32
+book.pages = 500;
+console.log(book); 
+delete book.year;
+console.log(book); 
+
+// 33
+// function fullName(user) {
+//     return user.first + " " + user.last;
+// }
+// const user = { first: "Nader", last: "Hantash" };
+// console.log(fullName(user));
+
+// 34
+const person = { name: "Lina", age: 25 };
+console.log(person); 
+person.age = 26;
+console.log(person); 
+
+// 35
+const settings = { theme: "light", lang: "en" };
+if (settings.theme === "light") {
+    settings.theme = "dark";
+}
+console.log(settings);
+
