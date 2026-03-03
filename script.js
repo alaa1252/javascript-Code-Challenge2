@@ -291,3 +291,44 @@ if (isEven(number)) {
 } else {
     console.log("odd");
 }
+
+// 26
+function pow(base, exp = 2) {
+    return base ** exp;
+}
+console.log(pow(5));
+console.log(pow(2, 3));
+
+// 27
+function formatName(first, last = "") {
+    return (first + " " + last).trim();
+}
+console.log(formatName("alaa"));
+console.log(formatName("alaa", "alawneh"));
+
+// 28
+function safeDivide(a, b = 1) {
+    if (b === 0) return "∞";
+    return a / b;
+}
+console.log(safeDivide(10, 2));
+console.log(safeDivide(10, 0));
+console.log(safeDivide(10));
+
+// 29
+function applyDiscount(price, percent = 10) {
+    return price - (price * percent / 100);
+}
+console.log(applyDiscount(200));
+console.log(applyDiscount(200, 25));
+
+// 30
+function repeatText(text, times = 1) {
+    let result = "";
+    for (let i = 0; i < times; i++) {
+        result += text;
+    }
+    return result;
+}
+console.log(repeatText("Hi ", 3));
+console.log(repeatText("Hello"));
